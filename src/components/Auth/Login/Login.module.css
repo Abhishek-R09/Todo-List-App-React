@@ -1,0 +1,16 @@
+.Login {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  flex-flow: column;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.forgotPass {
+  display: inline-block;
+  position: relative;
+  left: 51px;
+  font-size: 10px;
+}

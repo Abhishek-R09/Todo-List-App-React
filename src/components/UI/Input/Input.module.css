@@ -1,0 +1,26 @@
+.Input {
+  text-align: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.Input > input {
+  border: 1px solid #dae0ea;
+  padding: 15px;
+  width: 250px;
+  background-color: #1c437e;
+  color: #dae0ea;
+}
+
+::placeholder {
+  color: #3766ab;
+}
+
+.Input > label {
+  position: relative;
+  top: 9px;
+  background-color: #1c437e;
+  color: #dae0ea;
+  padding: 0 5px;
+  font-size: 12px;
+}
