@@ -1,0 +1,14 @@
+.AddButton {
+  background-color: #1c437e;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1c437e;
+  transition: background-color 0.3s ease-out;
+}
+
+.AddButton:hover {
+  background-color: #405b85;
+  cursor: pointer;
+}

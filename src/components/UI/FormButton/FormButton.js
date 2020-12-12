@@ -1,7 +1,13 @@
 import classes from "./FormButton.module.css";
 
 const formButton = (props) => (
-  <button className={classes.FormButton}>{props.btnTxt}</button>
+  <button
+    disabled={props.disabled}
+    className={classes.FormButton}
+    type="submit"
+  >
+    {props.btnTxt}
+  </button>
 );
 
 export default formButton;

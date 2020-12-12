@@ -1,0 +1,66 @@
+.Task {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  width: 100%;
+  font-size: 16px;
+}
+.checkbox {
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border: 1px solid #1c437e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.checked {
+  border: 1px solid #007500;
+  color: #007500;
+}
+
+.modalChildren {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  width: 100%;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.modalChildren > * {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.modalChildren textarea {
+  background-color: #f0f5fb;
+  font-family: "Open Sans", sans-serif;
+  color: #1c437e;
+  border: none;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  height: 70px;
+  resize: vertical;
+  outline: none;
+}
+
+.modalChildren textarea::placeholder {
+  color: #90c0e7;
+}
+
+.modalChildren > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.modalChildren > div:first-child *:last-child {
+  margin-left: auto;
+}

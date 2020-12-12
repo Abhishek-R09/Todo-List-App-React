@@ -14,3 +14,9 @@
   background-color: rgb(180, 180, 180);
   cursor: pointer;
 }
+
+.FormButton:disabled {
+  background-color: rgb(180, 180, 180);
+  color: red;
+  cursor: not-allowed;
+}

@@ -1,12 +1,5 @@
 .App {
   margin: 0;
-  background-color: #1c437e;
   height: 100vh;
-}
-
-.AppAuth {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  overflow: hidden;
 }

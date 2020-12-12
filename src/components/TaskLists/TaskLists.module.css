@@ -1,0 +1,25 @@
+.TaskLists {
+  margin: 100px 10px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.ModalNewListInput {
+  width: 70%;
+  border: 0;
+  padding: 10px;
+  outline: #1c437e;
+}
+
+.ModalNewListInput::placeholder {
+  font-size: 16px;
+  color: #6296b8;
+}
+
+@media (min-width: 662px) {
+  .TaskLists {
+    margin: 150px 20px;
+  }
+}

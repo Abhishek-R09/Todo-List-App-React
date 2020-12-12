@@ -1,0 +1,42 @@
+.TopBar {
+  background-color: #1c437e;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-flow: row;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+}
+
+.TopBar h1 {
+  font-size: 16px;
+}
+
+.CompanyLogo {
+  width: 100px;
+}
+
+.Profile {
+  border-radius: 50%;
+  /* margin-left: auto;
+  margin-right: 40px; */
+  margin: 10px 40px 10px auto;
+  width: 60px;
+  height: 60px;
+}
+
+@media (min-width: 662px) {
+  .TopBar h1 {
+    font-size: 35px;
+  }
+
+  .CompanyLogo {
+    width: 150px;
+  }
+
+  .Profile {
+    width: 90px;
+    height: 90px;
+  }
+}
