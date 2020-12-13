@@ -1,13 +1,18 @@
 .Task {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin: 15px 0;
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
 }
+
+.TaskName:hover {
+  cursor: pointer;
+}
+
 .checkbox {
   box-sizing: border-box;
-  width: 35px;
+  width: 43px;
   height: 35px;
   margin-right: 10px;
   border: 1px solid #1c437e;
@@ -26,6 +31,15 @@
   color: #007500;
 }
 
+.TaskDate {
+  width: fit-content;
+  padding: 6px 10px;
+  background-color: #f0f5fb;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 .modalChildren {
   display: flex;
   flex-flow: column;
@@ -38,6 +52,20 @@
 .modalChildren > * {
   width: 100%;
   margin: 10px 0;
+}
+
+.CloseIcon:hover {
+  cursor: pointer;
+}
+
+.modalChildren input {
+  background-color: #f0f5fb;
+  font-family: "Open Sans", sans-serif;
+  color: #1c437e;
+  border: none;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .modalChildren textarea {

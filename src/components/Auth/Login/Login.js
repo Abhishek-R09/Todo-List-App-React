@@ -67,9 +67,9 @@ const Login = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    console.log("submitted");
+
     props.onLogin(inputEmail.value, inputPassword.value);
-    console.log(props);
+
     props.history.replace("/");
   };
 

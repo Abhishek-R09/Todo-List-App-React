@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import Login from "./components/Auth/Login/Login";
 import Signup from "./components/Auth/Signup/Signup";
+import Logout from "./components/Auth/Logout/Logout";
 import TopBar from "./components/TopBar/TopBar";
 import TaskLists from "./components/TaskLists/TaskLists";
 import { Redirect, Route, Switch, withRouter } from "react-router-dom";
@@ -10,9 +11,9 @@ import * as actions from "./store/actions/index";
 
 const App = (props) => {
   useEffect(() => {
-    console.log(props.isAuthenticated);
+    // console.log(props.isAuthenticated);
     props.onTryAutoSignup();
-  }, []);
+  }, [props]);
 
   let routes = (
     <Switch>
@@ -25,6 +26,7 @@ const App = (props) => {
   if (props.isAuthenticated) {
     routes = (
       <Switch>
+        <Route path="/logout" component={Logout} />
         <Route path="/" component={TaskLists} />
         <Redirect to="/" />
       </Switch>

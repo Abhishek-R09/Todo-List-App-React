@@ -3,7 +3,7 @@
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .ModalNewListInput {
@@ -11,6 +11,8 @@
   border: 0;
   padding: 10px;
   outline: #1c437e;
+  color: #1c437e;
+  font-size: 16px;
 }
 
 .ModalNewListInput::placeholder {
@@ -21,5 +23,13 @@
 @media (min-width: 662px) {
   .TaskLists {
     margin: 150px 20px;
+    justify-content: flex-start;
+  }
+  .ModalNewListInput {
+    font-size: 20px;
+  }
+
+  .ModalNewListInput::placeholder {
+    font-size: 20px;
   }
 }
