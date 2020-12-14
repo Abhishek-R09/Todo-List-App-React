@@ -11,6 +11,10 @@
   justify-content: center;
   height: 100vh;
   background-color: #1c437e;
+  background-image: url("../../../assets/images/imageedit_2_5884499006.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .forgotPass {
