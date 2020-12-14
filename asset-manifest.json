@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/todo-list-app-react/static/css/main.3f63faf3.chunk.css",
-    "main.js": "/todo-list-app-react/static/js/main.8c8e84c9.chunk.js",
-    "main.js.map": "/todo-list-app-react/static/js/main.8c8e84c9.chunk.js.map",
-    "runtime-main.js": "/todo-list-app-react/static/js/runtime-main.928ac6d1.js",
-    "runtime-main.js.map": "/todo-list-app-react/static/js/runtime-main.928ac6d1.js.map",
-    "static/js/2.f962cf23.chunk.js": "/todo-list-app-react/static/js/2.f962cf23.chunk.js",
-    "static/js/2.f962cf23.chunk.js.map": "/todo-list-app-react/static/js/2.f962cf23.chunk.js.map",
-    "static/js/3.e5a90de4.chunk.js": "/todo-list-app-react/static/js/3.e5a90de4.chunk.js",
-    "static/js/3.e5a90de4.chunk.js.map": "/todo-list-app-react/static/js/3.e5a90de4.chunk.js.map",
-    "index.html": "/todo-list-app-react/index.html",
-    "static/css/main.3f63faf3.chunk.css.map": "/todo-list-app-react/static/css/main.3f63faf3.chunk.css.map",
-    "static/js/2.f962cf23.chunk.js.LICENSE.txt": "/todo-list-app-react/static/js/2.f962cf23.chunk.js.LICENSE.txt",
-    "static/media/companyLogo.8a58038c.png": "/todo-list-app-react/static/media/companyLogo.8a58038c.png",
-    "static/media/Signup.module.css": "/todo-list-app-react/static/media/imageedit_2_5884499006.4958bfb8.png"
+    "main.css": "/Todo-List-App-React/static/css/main.6f3da896.chunk.css",
+    "main.js": "/Todo-List-App-React/static/js/main.8c8e84c9.chunk.js",
+    "main.js.map": "/Todo-List-App-React/static/js/main.8c8e84c9.chunk.js.map",
+    "runtime-main.js": "/Todo-List-App-React/static/js/runtime-main.f447acb9.js",
+    "runtime-main.js.map": "/Todo-List-App-React/static/js/runtime-main.f447acb9.js.map",
+    "static/js/2.f962cf23.chunk.js": "/Todo-List-App-React/static/js/2.f962cf23.chunk.js",
+    "static/js/2.f962cf23.chunk.js.map": "/Todo-List-App-React/static/js/2.f962cf23.chunk.js.map",
+    "static/js/3.e5a90de4.chunk.js": "/Todo-List-App-React/static/js/3.e5a90de4.chunk.js",
+    "static/js/3.e5a90de4.chunk.js.map": "/Todo-List-App-React/static/js/3.e5a90de4.chunk.js.map",
+    "index.html": "/Todo-List-App-React/index.html",
+    "static/css/main.6f3da896.chunk.css.map": "/Todo-List-App-React/static/css/main.6f3da896.chunk.css.map",
+    "static/js/2.f962cf23.chunk.js.LICENSE.txt": "/Todo-List-App-React/static/js/2.f962cf23.chunk.js.LICENSE.txt",
+    "static/media/companyLogo.8a58038c.png": "/Todo-List-App-React/static/media/companyLogo.8a58038c.png",
+    "static/media/Signup.module.css": "/Todo-List-App-React/static/media/imageedit_2_5884499006.4958bfb8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.928ac6d1.js",
+    "static/js/runtime-main.f447acb9.js",
     "static/js/2.f962cf23.chunk.js",
-    "static/css/main.3f63faf3.chunk.css",
+    "static/css/main.6f3da896.chunk.css",
     "static/js/main.8c8e84c9.chunk.js"
   ]
 }
