@@ -24,7 +24,7 @@ const store = createStore(
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <HashRouter basename="/Todo-List-App-React">
+      <HashRouter basename="/">
         <App />
       </HashRouter>
       {/* </BrowserRouter> */}
