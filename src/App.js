@@ -17,8 +17,8 @@ const App = (props) => {
 
   let routes = (
     <Switch>
-      <Route path="/login" component={Login} />
-      <Route path="/signup" component={Signup} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={Signup} />
       <Redirect to="/login" />
     </Switch>
   );
@@ -26,8 +26,8 @@ const App = (props) => {
   if (props.isAuthenticated) {
     routes = (
       <Switch>
-        <Route path="/logout" component={Logout} />
-        <Route path="/" component={TaskLists} />
+        <Route exact path="/logout" component={Logout} />
+        <Route exact path="/" component={TaskLists} />
         <Redirect to="/" />
       </Switch>
     );
